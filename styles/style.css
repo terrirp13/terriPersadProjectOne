@@ -521,5 +521,15 @@ h1 {
         visibility: visible;
         color: #fcfbfb;
     }
+    .third {
+        display: none;
+    }
+    .gallery img {
+        width: calc(50% - 10px);
+    }
+    .subscribe, .email {
+    width: 100%;
+
+}
 
 }
