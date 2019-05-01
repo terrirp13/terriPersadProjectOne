@@ -204,9 +204,6 @@ header ul li a{
 .modelText{
     padding: 120px 40px 0 145px;
 }
-.modelText h2 {
-    padding-right: 90px;
-}
 .modelsContainer {
     position: relative;
 }
@@ -316,12 +313,12 @@ ul.footerMenu h4{
     float: left;
 }
 .footerInfo .contact {
-    width: 35%;
+    width: 30%;
     float: left;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 .footerInfo .footerMenu {
-    width: 15%;
+    width: 20%;
     float: left;
 }
 .copyright {
@@ -405,6 +402,12 @@ ul.footerMenu h4{
     padding: 5px 10px;
     font-size: .8rem;
 }
+ .footerInfo ul.footerMenu {
+    padding-left: 0;
+}
+ .footerInfo ul.footerMenu h4{
+     font-size: .9rem;
+}
 
 
 }
@@ -451,12 +454,7 @@ ul.footerMenu h4{
  .footerInfo .contact{
      padding-left: 0;
 }
- .footerInfo ul.footerMenu {
-    padding-left: 0;
-}
- .footerInfo ul.footerMenu h4{
-     font-size: .9rem;
-}
+
     
 }
 @media (max-width: 980px) {
@@ -478,7 +476,7 @@ ul.footerMenu h4{
 .footerInfo .footerMenu {
     width: 50%;
     float: left;
-    padding-right: 40px;
+    /* padding-right: 40px; */
 }
 
 .footerInfo ul.footerMenu {
@@ -521,6 +519,12 @@ h1 {
         visibility: visible;
         color: #fcfbfb;
     }
+    .modelText h2 {
+        padding-right: none;
+    }
+
+}
+@media (max-width: 468px) {  
     .third {
         display: none;
     }
@@ -529,7 +533,7 @@ h1 {
     }
     .subscribe, .email {
     width: 90%;
-}  
+    }  
     .footerInfo .contact{
         padding: 0;
     }
@@ -537,5 +541,8 @@ h1 {
         padding-right: 0;
         padding-top: 20px;
     }
+    .social i {
+        display: none;
+    }
 
-}
+    }
