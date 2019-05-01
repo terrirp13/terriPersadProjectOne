@@ -90,7 +90,7 @@ img {
     margin: 0 auto;
     max-width: 1440px;
     width: 80%;
-    border: 2px solid red;
+    
     
 }
 
@@ -500,11 +500,17 @@ h1 {
 }
 
 @media (max-width: 780px)  {
+    h2 {
+        font-size: 1.45rem;
+    }
     .navTitle {
         display: none;
     }
     .overlayContainer h3 {
         font-size: 1.3rem;
+    }
+    .wrapper {
+        width: 90%;
     }
     .overlayContainer .icon {
         float: none;
@@ -515,12 +521,25 @@ h1 {
       display: none;
 
     }
+    .highlightContainer .text{
+        padding: 0;
+    }
     .fa-bars {
         visibility: visible;
         color: #fcfbfb;
     }
     .modelText h2 {
         padding-right: none;
+    }
+    .subscribe, .email {
+    width: 90%;
+    }  
+    .footer {
+        padding: 10px;
+    }
+    p {
+        
+     font-size: .8rem;
     }
 
 }
@@ -531,9 +550,7 @@ h1 {
     .gallery img {
         width: calc(50% - 10px);
     }
-    .subscribe, .email {
-    width: 90%;
-    }  
+    
     .footerInfo .contact{
         padding: 0;
     }
@@ -544,5 +561,6 @@ h1 {
     .social i {
         display: none;
     }
+    
 
     }
