@@ -19,6 +19,24 @@ html {
     font-family: 'Roboto', sans-serif;
     font-family: 'Catamaran', sans-serif;
 }
+
+/* scarlet
+(#ba0621)
+rgb 186 6 33
+
+#very-dark-brown
+(#0b0101)
+rgb 11 1 1
+
+#lipstick
+(#cc1d36)
+rgb 204 29 54
+
+#wine-red
+(#6c0918)
+rgb 108 9 24 */
+
+
 body {
     background-color: #fcfbfb;
 }
@@ -333,6 +351,8 @@ ul.footerMenu h4{
      margin: 0;
      text-align: center;
 }
+
+/* *************RESPONSIVE********************** */
 
 @media (max-width: 1270px) {
   
